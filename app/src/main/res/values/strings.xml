@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SI Tools</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_box_program">Program SI box</string>
+
+    <string-array name="si_box_operating_modes">
+        <item>Control</item>
+        <item>Start</item>
+        <item>Finish</item>
+        <item>Clear</item>
+        <item>Check</item>
+        <item>Read SI cards</item>
+        <item>Print</item>
+    </string-array>
+
+</resources>
