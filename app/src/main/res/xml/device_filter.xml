@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--http://www.linux-usb.org/usb.ids-->
 
 <resources>
-    <usb-device vendor-id="1234" product-id="5678" class="255" subclass="66" protocol="1" />
+    <!--10C4:800A Cygnal Integrated Products, Inc. SportIdent -->
+    <usb-device vendor-id="4292" product-id="32778"/>
+
+    <!--10C4:EA60 Cygnal Integrated Products, Inc. CP2102/CP2109 UART Bridge Controller [CP210x family]-->
+    <usb-device vendor-id="4292" product-id="60000"/>
+
+    <!--Seen on the list of USB devices. New generation of BS11-BS/-BL use HID -->
+    <!--10C4:89c6 Cygnal Integrated Products, Inc. SPORTident HID device -->
+    <!--<usb-device vendor-id="4292" product-id="35270" />-->
+
+    <!--0403:6001 Future Technology Devices International, Ltd FT232 Serial (UART) IC -->
+    <!--<usb-device vendor-id="1027" product-id="24577"/> -->
+
+    <!--0403:6010 Future Technology Devices International, Ltd FT2232C/D/H Dual UART/FIFO IC -->
+    <!--<usb-device vendor-id="1027" product-id="24592"/> -->
+
+    <!--0403:6015 Future Technology Devices International, Ltd Bridge(I2C/SPI/UART/FIFO) -->
+    <!--<usb-device vendor-id="1027" product-id="24597"/> -->
+
+    <!--067B:2303 Prolific Technology, Inc. Prolific Technology, Inc. PL2303 Serial Port -->
+    <!--<usb-device vendor-id="1659" product-id="8963"/>-->
+
 </resources>
